@@ -4,61 +4,45 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <script src="assets/js/script.js"></script>
     <!-- Bootstrap CSS -->
-    <link rel="Reset" href="assets\css\reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets\css\style.css">
-    <title>Boom Boom</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+    <title>Hello, world!</title>
   </head>
   <body>
-    <!-- HTML CODE-->
-
-    <!-- Page Structure -->
-<div class="container mt-5">
-    <div class="row bg-primary ">
-        <div class="col leborder">
-            <h1 class="textcenter mt-5 mb-5">
-            Boom Boom!!
-            </h1>
-        </div>
-    </div>
-
-    <div class="row bg-light">
-        <div class="col bg-primary leftcolumn leborder">
-            <div class="bg-dark lecontent">
-                
+    <div class="container">
+        <div class="row bg-dark notsowide">
+            <div class="col bg-dark">
+                <p>The Psychic Game</p>
+            </div>
+            <div class="col bg-dark">
+                <p>Guess what letter i am</p>
             </div>
         </div>
-        <div class="col bg-primary leborder">
-            <div class="row imagecontent bg-light">
-                <img  src="">
+        <div class="row bg-dark notsowide">
+            <div class="col bg-primary">
+                <p>Wins:</p>
+                <p id="wins">  </p>
             </div>
-            <div class="row">
-                <p class="textcenter blankwordcontent bg-light font-weight-bolder">
-                    _ _ _ _ _ _ _
-                </p>
+            <div class="col bg-primary">
+                <p>Guessed letters: guessed letters go here</p>
             </div>
-            <div class="row">
-                <div class="col">
-                    <div class="row textcenter bg-dark">
-                        <p class="titletext ">number of tries left</p>
-                    </div>
-                    <div class="row   bg-dark nontitletext textcenter">
-                        12
-                    </div>
-                </div>
-            </div>
-            <div>
+        </div>
 
+        <div class="row notsowide">
+            <div class="col bg-light">
+                <p> Total Losses:</p>
+                <p id="totallosses"></p>
+            </div>
+            <div class="col bg-light">
+                <p> Guess countdown: number of guesses left go here</p>
+                <p id="guessesleft"></p>
             </div>
         </div>
     </div>
-
-</div>
-
-
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
